@@ -1,6 +1,17 @@
 #%Catalog Descriptor 1.0
 projects:
   - main: gon-flights-api-1.0.3-raml/gon-flights-api.raml
+    documentation:
+      Home: home.md
+    tags:
+      - demo
+      - KPMG
+    categories:
+      API Layer: 'Process API'
+      Region: 'EMEA'
+    contact:
+      name: 'Gonzalo Marcos'
+      email: 'gmarcos@salesforce.com'
     assetId: gon-flights-api
     version: 1.1.0
     apiVersion: v1
