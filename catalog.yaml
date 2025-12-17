@@ -16,10 +16,28 @@ projects:
     version: 1.1.0
     apiVersion: v1
   - main: orders-system-api-1.0.0-raml/orders-system-api.raml
+    tags:
+      - demo
+      - KPMG
+    categories:
+      API Layer: 'System API'
+      Region: 'AMER'
+    contact:
+      name: 'Gonzalo Marcos'
+      email: 'gmarcos@salesforce.com'
     assetId: orders-system-api
     version: 1.0.0
     apiVersion: v1
   - main: twilio-system-api-1.0.1-fat-oas/api.json
+    tags:
+      - demo
+      - KPMG
+    categories:
+      API Layer: 'Experience API'
+      Region: 'EMEA'
+    contact:
+      name: 'Gonzalo Marcos'
+      email: 'gmarcos@salesforce.com'
     assetId: twilio-system-api
     version: 1.1.0
     apiVersion: v1
